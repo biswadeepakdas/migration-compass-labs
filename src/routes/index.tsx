@@ -1,24 +1,52 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Toaster } from "@/components/ui/sonner";
+import { Nav } from "@/components/site/Nav";
+import { Hero } from "@/components/site/Hero";
+import { Services } from "@/components/site/Services";
+import { Approach } from "@/components/site/Approach";
+import { Platforms } from "@/components/site/Platforms";
+import { Outcomes } from "@/components/site/Outcomes";
+import { Faq } from "@/components/site/Faq";
+import { ContactCta } from "@/components/site/ContactCta";
+import { Footer } from "@/components/site/Footer";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Cloud Migration to Azure & AWS | NorthPeak Cloud" },
+      {
+        name: "description",
+        content:
+          "On-prem to Azure and AWS migration with full DevOps history, application modernization, workflow automation, app development and QA engineering.",
+      },
+      { property: "og:title", content: "Cloud Migration to Azure & AWS | NorthPeak Cloud" },
+      {
+        property: "og:description",
+        content:
+          "Migrate off on-prem, modernize as you go, and automate delivery — one accountable engineering team.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background">
+      <Nav />
+      <main>
+        <Hero />
+        <Services />
+        <Approach />
+        <Platforms />
+        <Outcomes />
+        <Faq />
+        <ContactCta />
+      </main>
+      <Footer />
+      <Toaster />
     </div>
   );
 }
