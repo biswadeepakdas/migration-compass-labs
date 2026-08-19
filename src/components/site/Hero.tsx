@@ -6,7 +6,6 @@ const proof = [
   { value: "60+", label: "Projects migrated" },
   { value: "60%", label: "Average run-cost saved" },
   { value: "Zero", label: "Data loss migrations" },
-  { value: "6 wks", label: "Typical first cutover" },
 ];
 
 export function Hero() {
