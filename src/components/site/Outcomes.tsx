@@ -14,7 +14,7 @@ const cases = [
   {
     sector: "Healthcare",
     title: "Release cycle from 6 weeks to daily",
-    body: "Automated CI/CD with quality gates and a Playwright regression suite covering 1,400 clinical journeys, validated against the migrated AWS environment.",
+    body: "Automated CI/CD with quality gates and a Playwright regression suite covering 1,400 clinical journeys, validated against the migrated Azure environment.",
     metric: "92% regression automated",
   },
 ];

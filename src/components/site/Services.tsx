@@ -11,15 +11,15 @@ import {
 const services = [
   {
     icon: CloudUpload,
-    title: "On-prem to cloud migration",
-    body: "Discovery, dependency mapping and wave planning, then migration of servers, databases and DevOps history to Azure or AWS with rollback at every step.",
+    title: "On-prem to Azure migration",
+    body: "Discovery, dependency mapping and wave planning, then migration of servers, databases and DevOps history to Azure with rollback at every step.",
     points: ["Assessment & TCO model", "Data & DevOps history migration", "Cutover with zero data loss"],
   },
   {
     icon: Boxes,
     title: "Application modernization",
     body: "Rearchitect monoliths into containers, managed services and serverless so migration pays for itself instead of moving the same bill.",
-    points: ["AKS / EKS containerization", "Managed PaaS databases", "Cost & resilience tuning"],
+    points: ["AKS containerization", "Managed PaaS databases", "Cost & resilience tuning"],
   },
   {
     icon: Workflow,

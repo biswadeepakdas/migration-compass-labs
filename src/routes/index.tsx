@@ -13,13 +13,13 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Cloud Migration to Azure & AWS | NorthPeak Cloud" },
+      { title: "Cloud Migration to Azure | NorthPeak Cloud" },
       {
         name: "description",
         content:
-          "On-prem to Azure and AWS migration with full DevOps history, application modernization, workflow automation, app development and QA engineering.",
+          "On-prem to Azure migration with full DevOps history, application modernization, workflow automation, app development and QA engineering.",
       },
-      { property: "og:title", content: "Cloud Migration to Azure & AWS | NorthPeak Cloud" },
+      { property: "og:title", content: "Cloud Migration to Azure | NorthPeak Cloud" },
       {
         property: "og:description",
         content:

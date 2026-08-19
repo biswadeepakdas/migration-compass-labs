@@ -22,7 +22,7 @@ export function Hero() {
       <div className="relative mx-auto grid max-w-6xl items-center gap-14 px-6 py-24 lg:grid-cols-[1.05fr_1fr] lg:py-32">
         <div>
           <span className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
-            <ShieldCheck className="size-3.5" /> Azure & AWS migration specialists
+            <ShieldCheck className="size-3.5" /> Azure migration specialists
           </span>
           <h1 className="mt-6 text-4xl font-bold leading-[1.05] sm:text-5xl lg:text-6xl">
             Move off on-prem.
@@ -31,8 +31,8 @@ export function Hero() {
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted-foreground">
             We lift enterprise workloads, pipelines and history out of legacy data centres into Azure
-            and AWS — then automate what used to be manual. Migration, modernization, engineering and
-            QA delivered by one accountable team.
+            — then automate what used to be manual. Migration, modernization, engineering and QA
+            delivered by one accountable team.
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
             <Button variant="hero" size="xl" asChild>
