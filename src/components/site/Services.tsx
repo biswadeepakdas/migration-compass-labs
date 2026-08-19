@@ -19,7 +19,7 @@ const services = [
     icon: Boxes,
     title: "Application modernization",
     body: "Rearchitect monoliths into containers, managed services and serverless so migration pays for itself instead of moving the same bill.",
-    points: ["AKS containerization", "Managed PaaS databases", "Cost & resilience tuning"],
+    points: ["Modularization & Containerization of monolith applications/pipeline workloads/Databases etc.", "Targeted as managed PaaS environments", "Cost & resilience tuning"],
   },
   {
     icon: Workflow,
