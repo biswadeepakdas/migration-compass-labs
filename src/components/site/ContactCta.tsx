@@ -17,9 +17,9 @@ export function ContactCta() {
           </p>
           <ul className="mt-8 space-y-3 text-sm text-muted-foreground">
             {[
-              "Dependency and readiness map of your estate",
-              "Azure cost model and sizing for your workloads",
-              "Wave plan with risks, owners and cutover windows",
+              "Dependency and readiness map of your current organizations",
+              "Estimation for your migration workloads",
+              "High level Simulation/Migration plan with risks, owners and cutover windows",
               "Automation and QA quick wins for the first 90 days",
             ].map((item) => (
               <li key={item} className="flex gap-2">
