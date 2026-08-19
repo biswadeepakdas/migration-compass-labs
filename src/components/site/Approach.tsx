@@ -40,7 +40,7 @@ export function Approach() {
                 {s.step}
               </span>
               <h3 className="mt-3 text-lg font-semibold">{s.title}</h3>
-              <p className="mt-2 text-sm text-muted-foreground">{s.body}</p>
+              <p className="mt-2 text-sm text-muted-foreground whitespace-pre-line">{s.body}</p>
             </li>
           ))}
         </ol>
