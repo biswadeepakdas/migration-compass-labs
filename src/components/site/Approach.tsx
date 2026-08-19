@@ -14,11 +14,6 @@ const steps = [
     title: "Migrate & modernize",
     body: "Simulation completion\nVerification sign-off before Production migration\nProduction migration",
   },
-  {
-    step: "04",
-    title: "Automate & assure",
-    body: "",
-  },
 ];
 
 export function Approach() {
