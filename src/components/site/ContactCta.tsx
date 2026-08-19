@@ -20,7 +20,6 @@ export function ContactCta() {
               "Dependency and readiness map of your current organizations",
               "Estimation for your migration workloads",
               "High level Simulation/Migration plan with risks, owners and cutover windows",
-              "Automation and QA quick wins for the first 90 days",
             ].map((item) => (
               <li key={item} className="flex gap-2">
                 <span className="mt-1.5 size-1.5 shrink-0 rounded-full bg-primary" />
