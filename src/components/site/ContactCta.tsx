@@ -10,11 +10,10 @@ export function ContactCta() {
       <div className="mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-2">
         <div>
           <h2 className="text-3xl font-bold sm:text-4xl">
-            Start with a <span className="text-gradient">free migration assessment</span>
+            Start with&nbsp;<span className="text-gradient">migration assessment</span>
           </h2>
           <p className="mt-4 max-w-lg text-muted-foreground">
-            Two weeks, fixed scope, no obligation. You walk away with a dependency map, a wave plan, a
-            cloud cost model and a modernization shortlist — whether or not you work with us.
+            Generally takes a week or two, provided the adequate access is provided on the current organizations. This can be fixed in the prior calls. Typically, this is fixed cost activity, after which you have clarity on the following -
           </p>
           <ul className="mt-8 space-y-3 text-sm text-muted-foreground">
             {[
