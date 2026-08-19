@@ -2,22 +2,22 @@ const steps = [
   {
     step: "01",
     title: "Assess",
-    body: "Automated discovery of servers, apps, pipelines and data flows. You get a dependency map, risk register and a cloud cost model before anything moves.",
+    body: "Automated discovery of legacy TFS or Azure DevOps organizations to estimate the workload\nInitial suggestion on migration approach\nPossible timeline on initial Simulation for verification",
   },
   {
     step: "02",
     title: "Plan waves",
-    body: "Workloads grouped into migration waves by blast radius. Each wave has an owner, a rehearsal, a cutover window and a rollback plan.",
+    body: "Workloads grouped into migration waves after quantifying workload\nTimelines for Simulation and Production migration",
   },
   {
     step: "03",
     title: "Migrate & modernize",
-    body: "Move with full history — repos, work items, builds, releases and test plans — while re-platforming the pieces that benefit from managed services.",
+    body: "Simulation completion\nVerification sign-off before Production migration\nProduction migration",
   },
   {
     step: "04",
     title: "Automate & assure",
-    body: "Pipelines, IaC and automated QA suites go live with the workload, so day two operations are repeatable instead of heroic.",
+    body: "",
   },
 ];
 
