@@ -12,8 +12,8 @@ const services = [
   {
     icon: CloudUpload,
     title: "On-prem to Azure migration",
-    body: "Discovery, dependency mapping and wave planning, then migration of servers, databases and DevOps history to Azure with rollback at every step.",
-    points: ["Assessment & TCO model", "Data & DevOps history migration", "Cutover with zero data loss"],
+    body: "Discovery, dependency mapping and wave planning, then migration of various DevOps organizations.",
+    points: ["Assessment (TCO model, if required)", "Data & DevOps history migration", "Cutover with zero data loss"],
   },
   {
     icon: Boxes,
