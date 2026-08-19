@@ -35,7 +35,11 @@ export function Approach() {
                 {s.step}
               </span>
               <h3 className="mt-3 text-lg font-semibold">{s.title}</h3>
-              <p className="mt-2 text-sm text-muted-foreground whitespace-pre-line">{s.body}</p>
+              <ul className="mt-2 list-disc space-y-1 pl-4 text-sm text-muted-foreground">
+                {s.body.split("\n").filter(Boolean).map((line) => (
+                  <li key={line}>{line}</li>
+                ))}
+              </ul>
             </li>
           ))}
         </ol>
