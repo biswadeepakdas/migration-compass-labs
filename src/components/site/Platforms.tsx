@@ -5,8 +5,8 @@ const tabs = [
   {
     id: "azure",
     label: "Microsoft Azure",
-    headline: "Landing zones, AKS and Azure DevOps done properly",
-    body: "We migrate TFS/Azure DevOps Server collections to Azure DevOps Services with full work item, repo, pipeline and test artifact history, and stand up enterprise-scale landing zones with policy, identity and networking baked in.",
+    headline: "Azure DevOps done properly",
+    body: "We migrate TFS/Azure DevOps Server collections to Azure DevOps Services with Work items, repositories (GIT and/or TFVC), Pipelines and Test Plans/Suites, Feeds/Artifacts etc.. ",
     tags: ["Azure Landing Zones", "AKS", "Azure SQL", "Azure DevOps", "Bicep", "Entra ID"],
   },
   {
