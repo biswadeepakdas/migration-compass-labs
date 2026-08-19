@@ -19,7 +19,7 @@ export function ContactCta() {
           <ul className="mt-8 space-y-3 text-sm text-muted-foreground">
             {[
               "Dependency and readiness map of your estate",
-              "Azure and AWS cost comparison for your workloads",
+              "Azure cost model and sizing for your workloads",
               "Wave plan with risks, owners and cutover windows",
               "Automation and QA quick wins for the first 90 days",
             ].map((item) => (

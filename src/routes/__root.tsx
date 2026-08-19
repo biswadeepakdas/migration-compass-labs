@@ -81,12 +81,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Cloud migration from on-prem to Azure and AWS, application modernization, workflow automation, custom development and QA engineering.",
+          "Cloud migration from on-prem to Azure, application modernization, workflow automation, custom development and QA engineering.",
       },
       { property: "og:title", content: "NorthPeak Cloud" },
       {
         property: "og:description",
-        content: "On-prem to Azure/AWS migration, modernization, automation, app development and QA.",
+        content: "On-prem to Azure migration, modernization, automation, app development and QA.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

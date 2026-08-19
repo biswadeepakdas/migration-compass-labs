@@ -10,18 +10,11 @@ const tabs = [
     tags: ["Azure Landing Zones", "AKS", "Azure SQL", "Azure DevOps", "Bicep", "Entra ID"],
   },
   {
-    id: "aws",
-    label: "Amazon Web Services",
-    headline: "Control Tower foundations with pragmatic re-platforming",
-    body: "Multi-account foundations via Control Tower and Organizations, workloads moved with MGN and DMS, then modernized onto EKS, Aurora, Lambda and Step Functions where it lowers cost and toil.",
-    tags: ["Control Tower", "EKS", "Aurora", "Lambda", "Terraform", "DMS"],
-  },
-  {
     id: "hybrid",
-    label: "Hybrid & multi-cloud",
+    label: "Hybrid & on-prem integration",
     headline: "For the estate that cannot move all at once",
-    body: "Keep regulated workloads on-prem while new services run in cloud, connected by secure networking, unified identity, shared pipelines and one observability plane.",
-    tags: ["Arc", "Private connectivity", "Unified CI/CD", "Observability"],
+    body: "Keep regulated workloads on-prem while new services run in Azure, connected by secure networking, unified identity, shared pipelines and one observability plane.",
+    tags: ["Azure Arc", "Private connectivity", "Unified CI/CD", "Observability"],
   },
 ];
 
@@ -30,7 +23,7 @@ export function Platforms() {
     <section id="platforms" className="mx-auto max-w-6xl px-6 py-24">
       <div className="max-w-2xl">
         <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">Platforms</p>
-        <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Deep on two clouds, honest about both</h2>
+        <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Deep on Azure, honest about what stays on-prem</h2>
       </div>
       <Tabs defaultValue="azure" className="mt-10">
         <TabsList className="bg-secondary">
