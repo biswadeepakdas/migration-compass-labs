@@ -26,8 +26,6 @@ export function Hero() {
           </span>
           <h1 className="mt-6 text-4xl font-bold leading-[1.05] sm:text-5xl lg:text-6xl">
             Move off on-prem or Unify multiple Organizations.
-            <br />
-            <span className="text-gradient">Modernize as you migrate.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted-foreground">
             We lift enterprise workloads, pipelines and history out of legacy data centres into Azure
