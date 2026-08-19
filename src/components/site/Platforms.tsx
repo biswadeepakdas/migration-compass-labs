@@ -6,7 +6,7 @@ const tabs = [
     id: "azure",
     label: "Microsoft Azure",
     headline: "Azure DevOps done properly",
-    body: "We migrate TFS/Azure DevOps Server collections to Azure DevOps Services with Work items, repositories (GIT and/or TFVC), Pipelines and Test Plans/Suites, Feeds/Artifacts etc.. ",
+    body: "We migrate TFS/Azure DevOps Server collections to Azure DevOps Services with Users, Work items, repositories (GIT and/or TFVC), Pipelines and Test Plans/Suites, Feeds/Artifacts etc..",
     tags: ["Azure Landing Zones", "AKS", "Azure SQL", "Azure DevOps", "Bicep", "Entra ID"],
   },
   {
