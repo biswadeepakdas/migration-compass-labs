@@ -25,7 +25,7 @@ export function Hero() {
             <ShieldCheck className="size-3.5" /> Azure migration specialists
           </span>
           <h1 className="mt-6 text-4xl font-bold leading-[1.05] sm:text-5xl lg:text-6xl">
-            Move off on-prem.
+            Move off on-prem or Unify multiple Organizations.
             <br />
             <span className="text-gradient">Modernize as you migrate.</span>
           </h1>
