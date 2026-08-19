@@ -2,7 +2,7 @@ const steps = [
   {
     step: "01",
     title: "Assess",
-    body: "Automated discovery of legacy TFS or Azure DevOps organizations to estimate the workload\nInitial suggestion on migration approach\nPossible timeline on initial Simulation for verification",
+    body: "Automated discovery of legacy TFS or Azure DevOps organizations to estimate the workload\nInitial suggestion on migration approach\nPossible timeline on initial Simulation for verification and Production migration",
   },
   {
     step: "02",
